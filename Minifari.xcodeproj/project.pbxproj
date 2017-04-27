@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3659524C1EB26E1C00024855 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3659524B1EB26E1C00024855 /* Extensions.swift */; };
+		368CB15D1EB25F4E00AAA123 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368CB15C1EB25F4E00AAA123 /* WebKit.framework */; };
 		36CA2ACB1EB2566B009200CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CA2ACA1EB2566B009200CB /* AppDelegate.swift */; };
-		36CA2ACD1EB2566B009200CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CA2ACC1EB2566B009200CB /* ViewController.swift */; };
+		36CA2ACD1EB2566B009200CB /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CA2ACC1EB2566B009200CB /* BrowseViewController.swift */; };
 		36CA2ACF1EB2566B009200CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36CA2ACE1EB2566B009200CB /* Assets.xcassets */; };
 		36CA2AD21EB2566B009200CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36CA2AD01EB2566B009200CB /* Main.storyboard */; };
 		36CA2ADD1EB2566B009200CB /* BarBrowseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CA2ADC1EB2566B009200CB /* BarBrowseTests.swift */; };
 		36CA2AE81EB2566B009200CB /* BarBrowseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CA2AE71EB2566B009200CB /* BarBrowseUITests.swift */; };
+		36CA2AF81EB25DFF009200CB /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CA2AF71EB25DFF009200CB /* EventMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		36CA2AC71EB2566B009200CB /* BarBrowse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarBrowse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3659524B1EB26E1C00024855 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		368CB15C1EB25F4E00AAA123 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		36CA2AC71EB2566B009200CB /* Minifari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minifari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CA2ACA1EB2566B009200CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36CA2ACC1EB2566B009200CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36CA2ACC1EB2566B009200CB /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
 		36CA2ACE1EB2566B009200CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36CA2AD11EB2566B009200CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36CA2AD31EB2566B009200CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36CA2AD81EB2566B009200CB /* BarBrowseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarBrowseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CA2AD81EB2566B009200CB /* MinifariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinifariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CA2ADC1EB2566B009200CB /* BarBrowseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarBrowseTests.swift; sourceTree = "<group>"; };
 		36CA2ADE1EB2566B009200CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36CA2AE31EB2566B009200CB /* BarBrowseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarBrowseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CA2AE31EB2566B009200CB /* MinifariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinifariUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CA2AE71EB2566B009200CB /* BarBrowseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarBrowseUITests.swift; sourceTree = "<group>"; };
 		36CA2AE91EB2566B009200CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36CA2AF71EB25DFF009200CB /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				368CB15D1EB25F4E00AAA123 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		368CB15B1EB25F4E00AAA123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				368CB15C1EB25F4E00AAA123 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		36CA2ABE1EB2566B009200CB = {
 			isa = PBXGroup;
 			children = (
@@ -79,15 +94,16 @@
 				36CA2ADB1EB2566B009200CB /* BarBrowseTests */,
 				36CA2AE61EB2566B009200CB /* BarBrowseUITests */,
 				36CA2AC81EB2566B009200CB /* Products */,
+				368CB15B1EB25F4E00AAA123 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		36CA2AC81EB2566B009200CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36CA2AC71EB2566B009200CB /* BarBrowse.app */,
-				36CA2AD81EB2566B009200CB /* BarBrowseTests.xctest */,
-				36CA2AE31EB2566B009200CB /* BarBrowseUITests.xctest */,
+				36CA2AC71EB2566B009200CB /* Minifari.app */,
+				36CA2AD81EB2566B009200CB /* MinifariTests.xctest */,
+				36CA2AE31EB2566B009200CB /* MinifariUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				36CA2ACA1EB2566B009200CB /* AppDelegate.swift */,
-				36CA2ACC1EB2566B009200CB /* ViewController.swift */,
+				36CA2ACC1EB2566B009200CB /* BrowseViewController.swift */,
+				36CA2AF71EB25DFF009200CB /* EventMonitor.swift */,
+				3659524B1EB26E1C00024855 /* Extensions.swift */,
 				36CA2ACE1EB2566B009200CB /* Assets.xcassets */,
 				36CA2AD01EB2566B009200CB /* Main.storyboard */,
 				36CA2AD31EB2566B009200CB /* Info.plist */,
@@ -125,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36CA2AC61EB2566B009200CB /* BarBrowse */ = {
+		36CA2AC61EB2566B009200CB /* Minifari */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36CA2AEC1EB2566B009200CB /* Build configuration list for PBXNativeTarget "BarBrowse" */;
+			buildConfigurationList = 36CA2AEC1EB2566B009200CB /* Build configuration list for PBXNativeTarget "Minifari" */;
 			buildPhases = (
 				36CA2AC31EB2566B009200CB /* Sources */,
 				36CA2AC41EB2566B009200CB /* Frameworks */,
@@ -137,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = BarBrowse;
+			name = Minifari;
 			productName = BarBrowse;
-			productReference = 36CA2AC71EB2566B009200CB /* BarBrowse.app */;
+			productReference = 36CA2AC71EB2566B009200CB /* Minifari.app */;
 			productType = "com.apple.product-type.application";
 		};
-		36CA2AD71EB2566B009200CB /* BarBrowseTests */ = {
+		36CA2AD71EB2566B009200CB /* MinifariTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36CA2AEF1EB2566B009200CB /* Build configuration list for PBXNativeTarget "BarBrowseTests" */;
+			buildConfigurationList = 36CA2AEF1EB2566B009200CB /* Build configuration list for PBXNativeTarget "MinifariTests" */;
 			buildPhases = (
 				36CA2AD41EB2566B009200CB /* Sources */,
 				36CA2AD51EB2566B009200CB /* Frameworks */,
@@ -155,14 +173,14 @@
 			dependencies = (
 				36CA2ADA1EB2566B009200CB /* PBXTargetDependency */,
 			);
-			name = BarBrowseTests;
+			name = MinifariTests;
 			productName = BarBrowseTests;
-			productReference = 36CA2AD81EB2566B009200CB /* BarBrowseTests.xctest */;
+			productReference = 36CA2AD81EB2566B009200CB /* MinifariTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		36CA2AE21EB2566B009200CB /* BarBrowseUITests */ = {
+		36CA2AE21EB2566B009200CB /* MinifariUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36CA2AF21EB2566B009200CB /* Build configuration list for PBXNativeTarget "BarBrowseUITests" */;
+			buildConfigurationList = 36CA2AF21EB2566B009200CB /* Build configuration list for PBXNativeTarget "MinifariUITests" */;
 			buildPhases = (
 				36CA2ADF1EB2566B009200CB /* Sources */,
 				36CA2AE01EB2566B009200CB /* Frameworks */,
@@ -173,9 +191,9 @@
 			dependencies = (
 				36CA2AE51EB2566B009200CB /* PBXTargetDependency */,
 			);
-			name = BarBrowseUITests;
+			name = MinifariUITests;
 			productName = BarBrowseUITests;
-			productReference = 36CA2AE31EB2566B009200CB /* BarBrowseUITests.xctest */;
+			productReference = 36CA2AE31EB2566B009200CB /* MinifariUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 36CA2AC21EB2566B009200CB /* Build configuration list for PBXProject "BarBrowse" */;
+			buildConfigurationList = 36CA2AC21EB2566B009200CB /* Build configuration list for PBXProject "Minifari" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +238,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36CA2AC61EB2566B009200CB /* BarBrowse */,
-				36CA2AD71EB2566B009200CB /* BarBrowseTests */,
-				36CA2AE21EB2566B009200CB /* BarBrowseUITests */,
+				36CA2AC61EB2566B009200CB /* Minifari */,
+				36CA2AD71EB2566B009200CB /* MinifariTests */,
+				36CA2AE21EB2566B009200CB /* MinifariUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36CA2ACD1EB2566B009200CB /* ViewController.swift in Sources */,
+				36CA2AF81EB25DFF009200CB /* EventMonitor.swift in Sources */,
+				36CA2ACD1EB2566B009200CB /* BrowseViewController.swift in Sources */,
 				36CA2ACB1EB2566B009200CB /* AppDelegate.swift in Sources */,
+				3659524C1EB26E1C00024855 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		36CA2ADA1EB2566B009200CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 36CA2AC61EB2566B009200CB /* BarBrowse */;
+			target = 36CA2AC61EB2566B009200CB /* Minifari */;
 			targetProxy = 36CA2AD91EB2566B009200CB /* PBXContainerItemProxy */;
 		};
 		36CA2AE51EB2566B009200CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 36CA2AC61EB2566B009200CB /* BarBrowse */;
+			target = 36CA2AC61EB2566B009200CB /* Minifari */;
 			targetProxy = 36CA2AE41EB2566B009200CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -402,12 +422,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8TWVWBQE3T;
 				INFOPLIST_FILE = BarBrowse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tangert.BarBrowse;
+				PRODUCT_BUNDLE_IDENTIFIER = tangert.Minifari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -416,12 +438,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8TWVWBQE3T;
 				INFOPLIST_FILE = BarBrowse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tangert.BarBrowse;
+				PRODUCT_BUNDLE_IDENTIFIER = tangert.Minifari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -438,7 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tangert.BarBrowseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarBrowse.app/Contents/MacOS/BarBrowse";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minifari.app/Contents/MacOS/Minifari";
 			};
 			name = Debug;
 		};
@@ -454,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tangert.BarBrowseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarBrowse.app/Contents/MacOS/BarBrowse";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minifari.app/Contents/MacOS/Minifari";
 			};
 			name = Release;
 		};
@@ -491,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36CA2AC21EB2566B009200CB /* Build configuration list for PBXProject "BarBrowse" */ = {
+		36CA2AC21EB2566B009200CB /* Build configuration list for PBXProject "Minifari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36CA2AEA1EB2566B009200CB /* Debug */,
@@ -500,29 +524,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36CA2AEC1EB2566B009200CB /* Build configuration list for PBXNativeTarget "BarBrowse" */ = {
+		36CA2AEC1EB2566B009200CB /* Build configuration list for PBXNativeTarget "Minifari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36CA2AED1EB2566B009200CB /* Debug */,
 				36CA2AEE1EB2566B009200CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		36CA2AEF1EB2566B009200CB /* Build configuration list for PBXNativeTarget "BarBrowseTests" */ = {
+		36CA2AEF1EB2566B009200CB /* Build configuration list for PBXNativeTarget "MinifariTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36CA2AF01EB2566B009200CB /* Debug */,
 				36CA2AF11EB2566B009200CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		36CA2AF21EB2566B009200CB /* Build configuration list for PBXNativeTarget "BarBrowseUITests" */ = {
+		36CA2AF21EB2566B009200CB /* Build configuration list for PBXNativeTarget "MinifariUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36CA2AF31EB2566B009200CB /* Debug */,
 				36CA2AF41EB2566B009200CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
