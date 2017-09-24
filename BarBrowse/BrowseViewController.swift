@@ -55,7 +55,7 @@ class BrowseViewController: NSViewController {
     }
     
     @IBAction func refreshPage(_ sender: Any) {
-        self.webView.reload()
+        webView.reload()
     }
     
     @IBAction func quit(_ sender: Any) {
